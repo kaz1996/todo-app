@@ -53,7 +53,7 @@ export class App {
 
   handleSaved(savedItems) {
     savedItems.forEach(savedItem => {
-      this.handleAdd(savedItem.title);
+      this.handleAdd(savedItem.title, savedItem.completed);
     });
     this.handleList();
   }
