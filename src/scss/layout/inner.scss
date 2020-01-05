@@ -1,0 +1,12 @@
+.page__inner {
+  width: 85%;
+  height: 100%;
+  @include flex(column);
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 960px) {
+  .page__inner {
+    width: 50%;
+  }
+}

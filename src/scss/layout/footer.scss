@@ -1,0 +1,14 @@
+.footer {
+  background-color: #fafffd;
+  border: 1px solid black;
+  border-top: none;
+  border-radius: 0 0 1rem 1rem;
+
+  &__copyright {
+    text-align: center;
+    padding: 1.5rem 0;
+    margin: 0;
+    opacity: .5;
+    border-top: 1px solid black;
+  }
+}

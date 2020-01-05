@@ -1,0 +1,25 @@
+$title-text-color: $color-light-green;
+$banner-background-theme: $color-black;
+$border-color: $color-black;
+
+.header {
+  @include flex($align-items:center);
+  border: 1px solid $border-color;
+  border-radius: 1rem 1rem 0 0;
+  background-image: url('../assets/imgs/noteTaking.jpg');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  border-bottom: none;
+
+  &__title {
+    width: 100%;
+    font-size: 5rem;
+    letter-spacing: .1rem;
+    color: $title-text-color;
+    text-align: center;
+    background-color: $banner-background-theme;
+    padding: .5rem 0;
+    opacity: 0.85;
+  }
+}

@@ -1,0 +1,14 @@
+$main-theme-color: $color-white-ish;
+$header-text-color: $color-light-green;
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6em;
+  background-color: $main-theme-color;
+  font-family: $fugaz-one;
+  padding: 1rem 0;
+  height: 100vh;
+}

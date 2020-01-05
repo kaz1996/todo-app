@@ -1,0 +1,16 @@
+$border-color: $color-black;
+$input_bg-color: $color-white-green;
+
+.form {
+  @include flex($align-items:center);
+  border-bottom: .1rem solid $border-color;
+
+  &__input {
+    border: none;
+    margin-left: 1rem;
+    font-size: 1.7rem;
+    flex: 1;
+    background-color: $input_bg-color;
+    height: 100%;
+  }
+}
